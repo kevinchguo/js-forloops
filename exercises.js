@@ -69,9 +69,10 @@ Write a for-loop that concatenates a Number value into that string on each itera
 var stringOfNumbers = '';
 
 for(i = 10; i<21; i++){
-   stringOfNumbers.toString([i])
+   stringOfNumbers =  stringOfNumbers.concat(i.toString())
 }
 console.log(stringOfNumbers);
+
 /* 5) Even Stevens
 Declare a variable named `evenNumArr` and assign its value to an empty array. 
 
