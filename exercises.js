@@ -68,7 +68,7 @@ Write a for-loop that concatenates a Number value into that string on each itera
 
 var stringOfNumbers = '';
 
-for(i = 10; i<21; i++){
+for(var i = 10; i<21; i++){
    stringOfNumbers =  stringOfNumbers.concat(i.toString())
 }
 console.log(stringOfNumbers);
@@ -80,6 +80,14 @@ Write a for-loop that will push even numbers to the `evenNumArr` array. We want 
 Console.log your results.
 */
 
+var evenNumArr = [];
+
+for(var i = 0; i<51; i++){
+   if(i%2 === 0){
+     evenNumArr.push(i)
+   }
+}
+console.log(evenNumArr)
 
 /* 6) Up the Odds
 Declare a variable named `oddSum` and assign it to the Number value 0.
