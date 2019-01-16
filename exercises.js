@@ -133,6 +133,38 @@ nope
 turn
 */
 
+//practice to reverse the order of for-loop
+// for(var i = 1; i < 11; i++){
+//    console.log(i)
+// }
+// prints out:
+// 1
+// 2
+// 3
+// 4
+// 5
+// 6
+// 7
+// 8
+// 9
+// 10
+// for(var i = 10; i > 0; i--){
+//    console.log(i)
+// }
+// // prints out:
+// 10
+// 9
+// 8
+// 7
+// 6
+// 5
+// 4
+// 3
+// 2
+// 1
+for(var i = oopsArray.length; i > 0; i--){
+   console.log(oopsArray[i])
+}
 
 /* 9) Siesta Time
 Declare a variable named `napSchedule` and assign its value to the following array: `[false, false, true, false, true, true]`
