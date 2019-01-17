@@ -203,15 +203,24 @@ Inside of this function write a for-loop that will iterate through the contents 
 */
 
 var valuesArray = [99, 66, 829, 1941, 8, 76];
+var copyValuesArray = [];
 
-function
-
+function copyArray(originArray, destinationArray){
+   for(var i = 0; i < originArray.length; i++){
+      destinationArray.push(originArray[i])
+   }
+   return destinationArray
+}
+copyArray(valuesArray, copyValuesArray)
+console.log(copyValuesArray)
+console.log(valuesArray)
 /*Final Boss*/
 
 /* 11) Go Long
 Declare a variable named `topQuote` and assign it to a String value of your favorite one line quote.
 Write a function that will iterate through the string value and return the longest word in that quote. Console.log your result.
 */
+
 
 
 
